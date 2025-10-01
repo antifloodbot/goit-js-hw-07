@@ -68,3 +68,28 @@ body {
   color: rgba(46, 47, 66, 1);
   padding-left: 16px;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 24px;
+  list-style: none;
+  margin: 0 auto;
+  width: 1440px;
+  padding: 100px 156px;
+  background: #fff;
+}
+
+.gallery__item {
+  flex: 0 0 360px;
+  height: 300px;
+}
+
+.gallery__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
